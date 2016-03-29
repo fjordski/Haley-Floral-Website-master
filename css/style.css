@@ -38,9 +38,9 @@ color:black;
 font-family: 'Amatic SC', cursive;
 }
 body{
-font-family: 'nothing you could do', 'open sans', cursive;
-color:
-line-height:23px;
+font-family: serif;
+font-size: 14px;
+line-height:20px;
 overflow-x:hidden;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
@@ -92,6 +92,14 @@ width:150px;
     color: white;
 }
 
+.haley {
+    margin-top: 1em;
+}
+
+.haley p {
+    font-family: 'Amatic SC';
+}
+
 /* ------------------------------------	*/
 /*  			 1. Home				*/
 /* ------------------------------------	*/
@@ -118,7 +126,7 @@ z-index:99;
 max-width:800px;
 }
 .home-parallax, .parallax-bg, #home{
-background-image:url('bg.JPG');
+background-image:url('header.JPG');
 background-position: center;
 background-repeat: no-repeat;
 position: fixed
@@ -208,7 +216,7 @@ letter-spacing:2px;
 text-transform:uppercase;
 }
 .navbar-default .navbar-nav > li.current > a,.navbar-default .navbar-nav > li > a:hover{
-color:#000;
+color:darkgoldenrod;
 }
 .navbar-default .navbar-nav > li > a:focus{
 outline:none;
@@ -236,7 +244,7 @@ font-size:13px;
 
 .instagram {
     width: 350px;
-    height: 350px;
+    height: auto;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -493,15 +501,25 @@ border: 2px solid black;
 #form-messages.error {
 border:2px solid #cc0000
 }
-.address-info{
+.address-info {
 margin-bottom:30px;
 }
+
+.social {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
 .address-info h3{
 font-size:20px;
 font-weight:400;
 }
 .address-info p{
 margin-bottom:5px;
+text-align: center;
+margin: 0 auto;
+display: block;
 }
 .address-info ul{
 }
